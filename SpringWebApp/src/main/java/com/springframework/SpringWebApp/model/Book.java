@@ -1,7 +1,6 @@
 package com.springframework.SpringWebApp.model;
 
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 import javax.persistence.*;
 import lombok.Data;
@@ -59,7 +58,8 @@ public class Book
     }
 
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
