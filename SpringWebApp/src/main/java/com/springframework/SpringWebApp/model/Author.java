@@ -1,7 +1,6 @@
 package com.springframework.SpringWebApp.model;
 
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -61,7 +60,8 @@ public class Author
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Author{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
