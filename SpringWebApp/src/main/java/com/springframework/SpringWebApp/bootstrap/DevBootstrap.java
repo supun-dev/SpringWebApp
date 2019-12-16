@@ -1,11 +1,7 @@
 package com.springframework.SpringWebApp.bootstrap;
 
-import com.springframework.SpringWebApp.model.Author;
-import com.springframework.SpringWebApp.model.Book;
-import com.springframework.SpringWebApp.model.Publisher;
-import com.springframework.SpringWebApp.repositories.AuthorRepository;
-import com.springframework.SpringWebApp.repositories.BookRepository;
-import com.springframework.SpringWebApp.repositories.PublisherRepository;
+import com.springframework.SpringWebApp.model.*;
+import com.springframework.SpringWebApp.repositories.*;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
